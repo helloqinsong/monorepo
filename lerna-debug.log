@@ -1,0 +1,16 @@
+35 error Error: Command failed with exit code 1: pnpm install --lockfile-only --ignore-scripts
+35 error Scope: all 3 workspace projects
+35 error  WARN  `node_modules` is present. Lockfile only installation will make it out-of-date
+35 error Progress: resolved 1, reused 0, downloaded 0, added 0
+35 error Progress: resolved 4, reused 0, downloaded 0, added 0
+35 error  WARN  GET https://r.cnpmjs.org/@tings%2Futil error (ERR_SOCKET_TIMEOUT). Will retry in 10 seconds. 2 retries left.
+35 error  WARN  GET https://r.cnpmjs.org/@tings%2Futil error (ERR_SOCKET_TIMEOUT). Will retry in 1 minute. 1 retries left.
+35 error /Volumes/980pro/monorepo/packages/core:
+35 error  ERR_PNPM_META_FETCH_FAIL  GET https://registry.npmmirror.com/@tings%2Futil: request to https://r.cnpmjs.org/@tings%2Futil failed, reason: Socket timeout
+35 error
+35 error This error happened while installing a direct dependency of /Volumes/980pro/monorepo/packages/core
+35 error     at makeError (/Volumes/980pro/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/lib/error.js:59:11)
+35 error     at handlePromise (/Volumes/980pro/monorepo/node_modules/.pnpm/execa@5.0.0/node_modules/execa/index.js:114:26)
+35 error     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+35 error     at async VersionCommand.updatePackageVersions (/Volumes/980pro/monorepo/node_modules/.pnpm/lerna@8.1.8_encoding@0.1.13/node_modules/lerna/dist/index.js:9857:11)
+35 error     at async Promise.all (index 0)
