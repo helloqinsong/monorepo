@@ -1,0 +1,9 @@
+
+
+> @tings/util@0.0.1 build /Volumes/980pro/monorepo/packages/util
+> tsc --watch
+
+[2J[3J[H[[90m20:28:54[0m] Starting compilation in watch mode...
+
+[[90m20:28:57[0m] Found 0 errors. Watching for file changes.
+

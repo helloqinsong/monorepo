@@ -1,0 +1,18 @@
+
+
+> @tings-cli/core@0.0.1 build /Volumes/980pro/monorepo/packages/core
+> tsc --watch
+
+[2J[3J[H[[90m20:28:54[0m] Starting compilation in watch mode...
+
+[96mlib/index.ts[0m:[93m1[0m:[93m21[0m - [91merror[0m[90m TS2307: [0mCannot find module '@tings/util' or its corresponding type declarations.
+
+[7m1[0m import { sum } from '@tings/util'
+[7m [0m [91m                    ~~~~~~~~~~~~~[0m
+
+[[90m20:28:57[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m20:28:58[0m] File change detected. Starting incremental compilation...
+
+[[90m20:28:58[0m] Found 0 errors. Watching for file changes.
+

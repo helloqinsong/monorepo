@@ -1,0 +1,29 @@
+{
+  "name": "@tings-cli/core",
+  "version": "0.0.1",
+  "description": "核心包",
+  "keywords": [
+    "core"
+  ],
+  "author": "qinsong <qinsong_king@163.com>",
+  "homepage": "http://build/index.js",
+  "license": "ISC",
+  "main": "build/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com"
+  },
+  "scripts": {
+    "test": "node ./__tests__/@tings-cli/core.test.js",
+    "build": "tsc --watch"
+  },
+  "dependencies": {
+    "@tings/util": "^0.0.1"
+  }
+}
