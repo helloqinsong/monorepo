@@ -15,9 +15,6 @@
   "author": "",
   "license": "ISC",
   "preinstall": "npx only-allow pnpm",
-  "workspaces": [
-    "packages/*"
-  ],
   "devDependencies": {
     "@types/node": "^22.7.8",
     "lerna": "^8.1.8",

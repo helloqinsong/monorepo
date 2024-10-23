@@ -24,6 +24,5 @@
     "build": "tsc --watch"
   },
   "dependencies": {
-    "@tings/util": "^0.0.1"
   }
 }
