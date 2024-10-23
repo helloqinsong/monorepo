@@ -1,6 +1,6 @@
 {
   "name": "@tings-cli/core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "核心包",
   "keywords": [
     "core"
@@ -22,7 +22,5 @@
   "scripts": {
     "test": "node ./__tests__/@tings-cli/core.test.js",
     "build": "tsc --watch"
-  },
-  "dependencies": {
   }
 }
