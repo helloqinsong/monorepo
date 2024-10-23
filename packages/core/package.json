@@ -1,5 +1,5 @@
 {
-  "name": "@tings-cli/core",
+  "name": "@tingson/core",
   "version": "0.1.4",
   "description": "核心包",
   "keywords": [
@@ -21,7 +21,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "node ./__tests__/@tings-cli/core.test.js",
     "build": "tsc --watch"
-  }
+  },
+  "gitHead": "66387dcce43fbbabd5ee7e49faae047b51eab85f"
 }

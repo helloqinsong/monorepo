@@ -1,5 +1,5 @@
 {
-  "name": "@tings/util",
+  "name": "@tingson/util",
   "version": "0.1.4",
   "description": "工具包",
   "keywords": [
@@ -24,5 +24,5 @@
     "test": "node ./__tests__/@tings/util.test.js",
     "build": "tsc --watch"
   },
-  "gitHead": "96a0e2da7b6760001a13c5b50fe8b5776e398c03"
+  "gitHead": "66387dcce43fbbabd5ee7e49faae047b51eab85f"
 }
