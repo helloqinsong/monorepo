@@ -22,5 +22,6 @@
   "scripts": {
     "test": "node ./__tests__/@tings-cli/core.test.js",
     "build": "tsc --watch"
-  }
+  },
+  "gitHead": "d29c2d768ac8041c46db0e82d0a3ade6ff06bcb9"
 }
