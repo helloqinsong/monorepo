@@ -17,10 +17,12 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "scripts": {
     "test": "node ./__tests__/@tings/util.test.js",
     "build": "tsc --watch"
-  }
+  },
+  "gitHead": "96a0e2da7b6760001a13c5b50fe8b5776e398c03"
 }
