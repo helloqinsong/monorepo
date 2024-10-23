@@ -1,6 +1,6 @@
 {
   "name": "@tings-cli/core",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "核心包",
   "keywords": [
     "core"
